@@ -4,6 +4,8 @@ html, body {
     background-color: white;
     font-family: 'Rubik', sans-serif;
     border: black;
+    color: #432000;
+    user-select: none;
 }
 
 button {
@@ -14,6 +16,11 @@ button {
     margin: 10px;
     font-family: 'Rubik', sans-serif;
     font-size: 16px;
+}
+
+button:hover {
+    background-color: #432000;
+    cursor: pointer;
 }
 
 input {
@@ -39,7 +46,8 @@ input {
 
 ul {
     list-style-type: none;
-    padding: 0;
+    padding-left: 10px;
+    padding-right: 10px;
     display: flex;
     flex-wrap: wrap;
     gap: 10px; 
@@ -52,4 +60,9 @@ ul li {
     flex-grow: 1;
     text-align: center;
     box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2)
+}
+
+ul li:hover {
+    background-color: #FFECC7;
+    cursor: pointer;
 }
