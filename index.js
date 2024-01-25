@@ -2,7 +2,7 @@ import { initializeApp } from "https://www.gstatic.com/firebasejs/10.7.2/firebas
 import { getDatabase, ref, push, onValue, remove } from "https://www.gstatic.com/firebasejs/10.7.2/firebase-database.js";
 
 const appSettings = {
-    databaseURL: "https://shoppinglist-e7b69-default-rtdb.europe-west1.firebasedatabase.app"
+    databaseURL: "" // add your firebase database url here
 }
 
 const app = initializeApp(appSettings)
